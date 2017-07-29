@@ -56,7 +56,7 @@ time {
 }
 
 .index_body {
-    background: #000000 url("../img/background.jpg") no-repeat center top;
+    background: tomato url("../img/background.jpg") no-repeat center top;
 }
 
 .content {
