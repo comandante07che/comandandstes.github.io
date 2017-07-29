@@ -60,7 +60,7 @@ time {
 }
 
 .content {
-    background: #f8f3f0 url("../img/white_texture.png") repeat;
+    background: tomato url("../img/white_texture.png") repeat;
 }
 
 h1 {
