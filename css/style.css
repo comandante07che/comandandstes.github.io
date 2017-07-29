@@ -56,11 +56,11 @@ time {
 }
 
 .index_body {
-    background: #000000 url("../img/background.jpg") no-repeat center top;
+    background: tomato url("../img/background.jpg") no-repeat center top;
 }
 
 .content {
-    background: #f8f3f0 url("../img/white_texture.png") repeat;
+    background: tomato url("../img/white_texture.png") repeat;
 }
 
 h1 {
