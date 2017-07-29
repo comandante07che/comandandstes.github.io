@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Прайс-лист</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- шапка -->
+        <header>
+            <div class="container normal_layout">
+                <!-- главная навигация -->
+                <nav class="main_navigation">
+                    <div class="header_logo">
+                        <a href="index.html"><img src="img/header_logo.png" width="111" height="24" alt="Барбершоп" title="Барбершоп «Бородинский»"></a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Информация</a>
+                        </li>
+                        <li>
+                            <a href="index.html#news_preview">Новости</a>
+                        </li>
+                        <li class="active">
+                            <a>Прайс-лист</a>
+                        </li>
+                        <li>
+                            <a href="shop.html">Магазин</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /главная навигация -->
+                <!-- авторизация -->
+                <div class="user_block">
+                    <a href="#modal_content">Вход</a>
+                </div>
+                <!-- /авторизация -->
+            </div>
+        </header>
+        <!-- /шапка -->
+        <main class="content price_main">
+            <div class="container">
+                <h1>Прайс-лист</h1>
+                <!-- хлебные крошки -->
+                <nav class="breadcrumbs">
+                    <ul>
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a class="active">Прайс-лист</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /хлебные крошки -->
+                <span class="price_slogan">Истинно мужская классика</span>
+                <div class="price_content">
+                    <div class="price_content_left">
+                        <!-- список производителей -->
+                        <section class="price_set">
+                            <h2>Мы используем только лучшие средства:</h2>
+                            <ul>
+                                <li>Baxter of California</li>
+                                <li>Mr Natty</li>
+                                <li>Suavecito</li>
+                                <li>Malin+Goetz</li>
+                            </ul>
+                        </section>
+                        <!-- /список производителей -->
+                    </div>
+                    <div class="price_content_right">
+                        <!-- прайс-лист (таблица) -->
+                        <section class="price_list">
+                            <h2>Цены на услуги наших мастеров:</h2>
+                            <table class="price_table">
+                                <tr>
+                                    <td>Стрижка</td>
+                                    <td>1500 р.</td>
+                                </tr>
+                                <tr>
+                                    <td>Стрижка бороды</td>
+                                    <td>500 р.</td>
+                                </tr>
+                                <tr>
+                                    <td>Накрутка усов</td>
+                                    <td>350 р.</td>
+                                </tr>
+                            </table>
+                        </section>
+                        <!-- /прайс-лист (таблица) -->
+                    </div>
+                </div>
+                <!-- несколько слов о нас -->
+                <section class="about_us">
+                    <h2>Несколько слов о нас:</h2>
+                    <div class="normal_layout">
+                        <div class="about_us_left">
+                            <p>Наша парикмахерская занимается исключительно мужскими стрижками.
+                                Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.
+                                Мы не работаем на количество, мы делаем качество.</p>
+                        </div>
+                        <div class="about_us_right">
+                            <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно
+                                в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для
+                                вас атмосферу, чувствовать себя комфортно и свободно!</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- /несколько слов о нас -->
+            </div>
+        </main>
+        <!-- подвал -->
+        <footer class="footer_shadow">
+            <div class="container footer_layout">
+                <div class="footer_contacts">
+                    Барбершоп «Бородинский»<br>
+                    Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+                    <a href="#">Как нас найти?</a><br>
+                    Телефон: +7 (495) 666-02-66
+                </div>
+                <!-- социальные ссылки -->
+                <div class="footer_social">
+                    <p>Давайте дружить!</p>
+                    <ul>
+                        <li>
+                            <a class="social_btn social_btn_vk" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="social_btn social_btn_fb" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="social_btn social_btn_inst" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /социальные ссылки -->
+                <div class="footer_copyright">
+                    <p>Разработано:</p>
+                    <a class="btn" href="https://htmlacademy.ru">HTMLAcademy.ru</a>
+                </div>
+            </div>
+        </footer>
+        <!-- подвал -->
+        <!-- форма авторизации -->
+        <div class="modal_content hidden" id="modal_content">
+            <!-- <button class="modal_content_close" type="button" title="Закрыть">Закрыть</button> -->
+            <a class="modal_content_close" href="#modal_content_close">Я забыл пароль!</a>
+            <h2 class="modal_content_title">Личный кабинет</h2>
+            <p>Введите пожалуйста свой логин и пароль</p>
+            <form class="login_form" action="https://echo.htmlacademy.ru" method="post">
+                <input class="icon_user" type="text" name="login" placeholder="Логин">
+                <input class="icon_password" type="password" name="password" placeholder="Пароль">
+                <div class="login_form_submit">
+                    <input id="remember_me" type="checkbox" name="remember">
+                    <label for="remember_me" class="login_checkbox">Запомните меня</label>
+                    <a class="restore" href="#">Я забыл пароль!</a>
+                </div>
+                <button class="btn" type="submit">Войти</button>
+            </form>
+        </div>
+        <!-- /форма авторизации -->
+        <div class="modal_overlay hidden" id="overlay"></div>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

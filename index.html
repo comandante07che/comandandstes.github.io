@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Барбершоп «Бородинский»</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body class="index_body">
+        <!-- шапка -->
+        <header>
+            <div class="container normal_layout">
+                <!-- главная навигация -->
+                <nav class="main_navigation">
+                    <ul>
+                        <li>
+                            <a href="#">Информация</a>
+                        </li>
+                        <li>
+                            <a href="index.html#news_preview">Новости</a>
+                        </li>
+                        <li>
+                            <a href="price.html">Прайс-лист</a>
+                        </li>
+                        <li>
+                            <a href="shop.html">Магазин</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /главная навигация -->
+                <!-- авторизация -->
+                <div class="user_block">
+                    <a href="#modal_content">Вход</a>
+                </div>
+                <!-- /авторизация -->
+            </div>
+        </header>
+        <!-- /шапка -->
+        <main>
+            <div class="container">
+                <!-- логотип -->
+                <div class="index_logo">
+                    <img src="img/index_logo.png" width="368" height="204" alt="Барбершоп «Бородинский»" title="Барбершоп «Бородинский»">
+                </div>
+                <!-- /логотип -->
+                <!-- преимущества -->
+                <div class="features">
+                    <div class="features_item">
+                        <b>Быстро</b>
+                        <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+                    </div>
+                    <div class="features_item">
+                        <b>Круто</b>
+                        <p>Забудьте, как вы стриглись раньше. <br>Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+                    </div>
+                    <div class="features_item">
+                        <b>Дорого</b>
+                        <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+                    </div>
+
+                </div>
+                <!-- /преимущества -->
+                <div class="index_content">
+                    <!-- новости -->
+                    <section class="index_content_left">
+                        <h2 id="news_preview">Новости</h2>
+                        <ul class="news_preview">
+                            <li>
+                                <a href="#">Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</a>
+                                <time datetime="2016-01-11">11 января</time>
+                            </li>
+                            <li>
+                                <a href="#">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</a>
+                                <time datetime="2016-01-18">18 января</time>
+                            </li>
+                        </ul>
+                        <a class="btn" href="#">Все новости</a>
+                    </section>
+                    <!-- /новости -->
+                    <!-- галерея -->
+                    <section class="index_content_right">
+                        <h2>Фотогалерея</h2>
+                        <div class="gallery">
+                            <figure class="gallery_content">
+                                <a href="#"><img src="img/gallery_1.jpg" width="286" height="164" alt="Рабочее место" title="Рабочее место"></a>
+                            </figure>
+                            <div class="gallery_btns">
+                                <button class="btn gallery_prev disabled" type="button">Назад</button>
+                                <button class="btn gallery_next" type="button">Вперёд</button>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /галерея -->
+                </div>
+                <div class="index_content">
+                    <!-- контактная информация -->
+                    <section class="index_content_left">
+                        <h2>Контактная информация</h2>
+                        <p>
+                            Барбершоп «Бородинский»<br>
+                            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                            Телефон: +7 (495) 666-02-66
+                        </p>
+                        <p>
+                            Время работы:<br>
+                            пн — пт: с 10:00 до 22:00<br>
+                            сб — вс: с 10:00 до 19:00
+                        </p>
+                        <div class="contact_btns">
+                            <a class="btn js_open_map" href="#modal_content_map">Как проехать</a>
+                            <a class="btn" href="#">Обратная связь</a>
+                        </div>
+                    </section>
+                    <!-- /контактная информация -->
+                    <!-- записаться на стрижку -->
+                    <section class="index_content_right">
+                        <h2>Записаться</h2>
+                        <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+                        <form class="appointment_form" action="https://echo.htmlacademy.ru" method="post">
+                            <input type="text" name="date" value="" placeholder="Дата">
+                            <input type="text" name="time" value="" placeholder="Время">
+                            <input type="text" name="name" value="" placeholder="Ваше имя">
+                            <input type="tel" name="phone" value="" placeholder="Телефон">
+                            <button class="btn" type="submit">Отправить</button>
+                        </form>
+                    </section>
+                    <!-- /записаться на стрижку -->
+                </div>
+            </div>
+        </main>
+        <!-- подвал -->
+        <footer>
+            <div class="container footer_layout">
+                <div class="footer_contacts">
+                    Барбершоп «Бородинский»<br>
+                    Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+                    <a href="#">Как нас найти?</a><br>
+                    Телефон: +7 (495) 666-02-66
+                </div>
+                <!-- социальные ссылки -->
+                <div class="footer_social">
+                    <p>Давайте дружить!</p>
+                    <ul>
+                        <li>
+                            <a class="social_btn social_btn_vk" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="social_btn social_btn_fb" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="social_btn social_btn_inst" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /социальные ссылки -->
+                <div class="footer_copyright">
+                    <p>Разработано:</p>
+                    <a class="btn" href="https://htmlacademy.ru">HTMLAcademy.ru</a>
+                </div>
+            </div>
+        </footer>
+        <!-- подвал -->
+        <!-- форма авторизации -->
+        <div class="modal_content hidden" id="modal_content">
+            <!-- <button class="modal_content_close" type="button" title="Закрыть">Закрыть</button> -->
+            <a class="modal_content_close" href="#modal_content_close">Я забыл пароль!</a>
+            <h2 class="modal_content_title">Личный кабинет</h2>
+            <p>Введите пожалуйста свой логин и пароль</p>
+            <form class="login_form" action="https://echo.htmlacademy.ru" method="post">
+                <input class="icon_user" type="text" name="login" placeholder="Логин">
+                <input class="icon_password" type="password" name="password" placeholder="Пароль">
+                <div class="login_form_submit">
+                    <input id="remember_me" type="checkbox" name="remember">
+                    <label for="remember_me" class="login_checkbox">Запомните меня</label>
+                    <a class="restore" href="#">Я забыл пароль!</a>
+                </div>
+                <button class="btn" type="submit">Войти</button>
+            </form>
+        </div>
+        <!-- /форма авторизации -->
+        <!-- карта -->
+        <div class="modal_content_map hidden" id="modal_content_map">
+            <!-- <button class="modal_content_close" type="button" title="Закрыть">Закрыть</button> -->
+            <a class="modal_content_close" href="#modal_content_close">Я забыл пароль!</a>
+            <div id="google_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59910436516!2d30.320894616394266!3d59.93879418187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1500384977558" width="766" height="561" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- /карта -->
+        <div class="modal_overlay hidden"></div>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
